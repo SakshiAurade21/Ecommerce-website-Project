@@ -182,24 +182,36 @@
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-
 }
+
 .box{
-    height: 400px;
-    font-size: 1rem;
+    height: 450px;
     width: 30%;
     background-color: whitesmoke;
     border: 2px solid black;
-    margin-top: 5%;
-   
-    
-}
-.box1 ,.box2 ,.box3{
-    margin-top: -17%;
+    border-radius: 13px;
+    margin-top: 5%;    
 }
 
+.box1 ,.box2 ,.box3{
+    margin-top: -18%;
+}
+
+.box p{
+    font-size: 1.5rem;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+.box  a{
+    color: #007185;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
 .box-img{
-    height: 300px;
+    height: 340px;
     background-size: cover;
     padding:20px 0px 15px;
     margin-left: 10px;
