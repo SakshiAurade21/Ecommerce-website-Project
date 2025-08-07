@@ -112,3 +112,32 @@
     font-size: 0.8rem;
     font-weight: 700;
 }
+/* 2nd pannel */
+
+.pannel{
+    height: 40px;
+    background-color:#222f3d;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.pannel-all{
+    display: flex;
+    align-items: center;
+}
+.pannel-all i{
+    font-size: 25px;
+}
+
+.Pannel-options p{
+    display: inline;
+    margin-left:25px ;
+}
+
+.Pannel-options{
+    width: 70%;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
