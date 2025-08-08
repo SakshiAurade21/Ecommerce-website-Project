@@ -217,3 +217,39 @@
     margin-left: 10px;
     margin-right: 10px;
 }
+
+/* footer */
+footer{
+    
+}
+
+.footer-pannel1{
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.footer-pannel2{
+    background-color: #222f3d;
+    color: white;
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+}
+
+.footer-pannel2 p{
+    font-size: 1.4rem;
+    margin-top: 40px;
+    font-weight: 700;
+}
+.footer-pannel2 a{
+    display: block;
+    font-size: 1rem;
+    margin-top: 12px;
+}
